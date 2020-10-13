@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ArduinoOBDSimulator.exe" version="1.0.0.0" publicKeyToken="913a2581fb64c856" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="icon (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ArduinoOBDSimulator" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="ArduinoOBDSimulator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ArduinoOBDSimulator.exe" size="1560504">
+      <assemblyIdentity name="ArduinoOBDSimulator" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PtzN5rmom3gynIMj/A2rtZE/B5oYvGvZ2k4Ubk/0j0o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ArduinoOBDSimulator.exe.config" size="185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HMbBboYI4eon7l4q6LbumKVoZMKwgu7Zp1zdH3NxFio=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon (1).ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>njMM4df0r37Yz2QQGLigSxn7By2gDEDnhQErofKNyp8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\avrdude.exe" size="524800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TXf34G7EL4p958Qy5ydcR/gGIjEpozhEIcsdvd4Ljbg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\avrdude.txt" size="481458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RNJTD5FMllML/EBU+D4GNqewigWBXADeYGYWsaLAobA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\hexfile.txt" size="20714">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p4wZSb013y4z2FAwRYNXFF2KTY6uR+grfUhncW5f/eo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-DK\Dhananjay" issuerKeyHash="a1efb85465694ccf8a23898cae8a009abe2d37ea" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZtRqWV/hzJXFwfZuvWi9i1RP5k8=</DigestValue></Reference></SignedInfo><SignatureValue>iZgzEpcHJqVBF+GlPALU47RG1Le78xX0cgPVDdglns4qUJy/KXyoAZffn+J6sxqROt6ey35tZyiFuTHKLjBWwuyRTjWGDfo6/9VpDswKynT5IrGCe+GyMtcAxzUHCjnFPUUc8crVLAKaK4olHFn7RdkO75YS+esayyZ7wn0BVsM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qiqJxCd7NXgi3uhnjZzMRu/5HrbeYMhxJggBaZDXa/1l8r6AUgo0sfD0W9q9l447Jyl/REg7WuAAG3I/AB8jFpDxW/3xoTMNTRdMsUSpiw0pqw0JPLg0T2pu7p7tIFYa1eko6YAxCttJFn8mZUniUb2EElXtc5/nx3QAfSAMLik=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4fe64f548bbd68bd6ef6c1c595cce15f596ad466" Description="" Url=""><as:assemblyIdentity name="ArduinoOBDSimulator.exe" version="1.0.0.0" publicKeyToken="913a2581fb64c856" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DK\Dhananjay</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>JxXuZo2+CXp4khQvne5gAVFJkQ0=</DigestValue></Reference></SignedInfo><SignatureValue>ngjqBYt5BtWYcElv9VwBnDCQd55o+iSr0VmRA2LnwwTI6nsMcstdYR+LsxmKMoP2CcuiY5x98iw0qm304ZERdUeamzo5MppestTFdtnyWaLObJZ++hPEo6p3C8gCAPos/+1JtmS6UUwCgYpYUKtmlvh+vOF/ZqqEs72aJXBbhO8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qiqJxCd7NXgi3uhnjZzMRu/5HrbeYMhxJggBaZDXa/1l8r6AUgo0sfD0W9q9l447Jyl/REg7WuAAG3I/AB8jFpDxW/3xoTMNTRdMsUSpiw0pqw0JPLg0T2pu7p7tIFYa1eko6YAxCttJFn8mZUniUb2EElXtc5/nx3QAfSAMLik=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQVnb/NP2i1atFm3xeVsZaTzANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEQASwBcAEQAaABhAG4AYQBuAGoAYQB5MB4XDTE4MTEwMTA4MTAzMVoXDTE5MTEwMTE0MTAzMVowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBEAEsAXABEAGgAYQBuAGEAbgBqAGEAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqiqJxCd7NXgi3uhnjZzMRu/5HrbeYMhxJggBaZDXa/1l8r6AUgo0sfD0W9q9l447Jyl/REg7WuAAG3I/AB8jFpDxW/3xoTMNTRdMsUSpiw0pqw0JPLg0T2pu7p7tIFYa1eko6YAxCttJFn8mZUniUb2EElXtc5/nx3QAfSAMLikCAwEAATANBgkqhkiG9w0BAQUFAAOBgQB3Wvh9axt5vYMu1ckn2PP10xBzAOUgNLjxI7QVPMsoKXaJYPExL5gDSG6m7b5Ux0vVYZRDuiYGSLnN+VaoxnqREsgzgkYrNNaMWgKBsDUtg7loNL1oYGUn+aNjk0+F+5cyhjHIAGxjedWaELsem3n1OrOMi3XVrTV8Qug2kO7VOw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

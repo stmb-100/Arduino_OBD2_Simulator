@@ -1,0 +1,15 @@
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\bin\x64\Debug\SerialCom.exe
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\bin\x64\Debug\SerialCom.pdb
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\bin\x64\Debug\SerialCom.xml
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.Form1.resources
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.Resources.resources
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.vbproj.GenerateResource.cache
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.vbproj.CoreCompileInputs.cache
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.exe
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.xml
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.pdb
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\bin\x64\Debug\SerialCom.exe.manifest
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\bin\x64\Debug\SerialCom.application
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.vbprojAssemblyReference.cache
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.exe.manifest
+C:\Users\Dhananjay\source\repos\SerialCom\SerialCom\obj\x64\Debug\SerialCom.application
